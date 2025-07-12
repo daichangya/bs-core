@@ -162,3 +162,8 @@ id, title, author, publisher, extension, filesize, language, year, pages, isbn, 
 ## 许可证
 
 **book-searcher** © [The Book Searcher Authors](https://github.com/daichangya/bs-core/graphs/contributors), 根据[BSD-3-Clause]((./LICENSE))发布。
+
+## 参考
+
+https://liber3.eth.limo/
+https://ipfs.github.io/public-gateway-checker/
