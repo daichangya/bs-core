@@ -28,3 +28,29 @@ export function getMd5CoverImageUrl(md5: string | undefined) {
     return import.meta.env.VITE_COVER_ZLIBRARY_URL + path;
   }
 }
+
+/**
+ * 根据ISBN获取Open Library的封面图片URL
+ * @param isbn 书籍的ISBN号，可能是单个ISBN或逗号分隔的多个ISBN
+ * @param size 图片尺寸：S(小)、M(中)、L(大)，默认为M
+ * @returns 封面图片的URL
+ */
+export function getIsbnCoverImageUrl(isbn: string | undefined, size: 'S' | 'M' | 'L' = 'M') {
+  if (isbn == undefined || isbn.length == 0) {
+    return white_pic;
+  } else {
+    // 如果包含逗号，取第一个ISBN
+    if (isbn.includes(',')) {
+      isbn = isbn.split(',')[0].trim();
+      
+      // 如果分割后的ISBN为空，返回白色图片
+      if (isbn.length == 0) {
+        return white_pic;
+      }
+    }
+    
+    // 移除ISBN中的连字符
+    isbn = isbn.replace(/-/g, '');
+    return `https://covers.openlibrary.org/b/isbn/${isbn}-${size}.jpg`;
+  }
+}

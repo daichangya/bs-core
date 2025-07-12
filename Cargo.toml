@@ -13,8 +13,8 @@ version = "1.3.0"
 edition = "2021"
 authors = ["The Book Searcher Authors"]
 description = "Easy and fast book searcher, create and search your private library."
-homepage = "https://github.com/book-searcher-org/book-searcher"
-repository = "https://github.com/book-searcher-org/book-searcher"
+homepage = "https://github.com/daichangya/bs-core"
+repository = "https://github.com/daichangya/bs-core"
 license = "BSD-3-Clause"
 exclude = [".github/", "index/", "frontend/"]
 

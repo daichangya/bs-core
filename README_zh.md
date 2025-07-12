@@ -1,12 +1,12 @@
 # Book Searcher
 
-[![GitHub stars](https://img.shields.io/github/stars/book-searcher-org/book-searcher)](https://github.com/book-searcher-org/book-searcher/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/book-searcher-org/book-searcher)](https://github.com/book-searcher-org/book-searcher/network)
-[![Release](https://img.shields.io/github/release/book-searcher-org/book-searcher)](https://github.com/book-searcher-org/book-searcher/releases)
-[![GitHub issues](https://img.shields.io/github/issues/book-searcher-org/book-searcher)](https://github.com/book-searcher-org/book-searcher/issues)
-[![GitHub license](https://img.shields.io/github/license/book-searcher-org/book-searcher)](https://github.com/book-searcher-org/book-searcher/blob/master/LICENSE)
+[![GitHub stars](https://img.shields.io/github/stars/book-searcher-org/book-searcher)](https://github.com/daichangya/bs-core/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/book-searcher-org/book-searcher)](https://github.com/daichangya/bs-core/network)
+[![Release](https://img.shields.io/github/release/book-searcher-org/book-searcher)](https://github.com/daichangya/bs-core/releases)
+[![GitHub issues](https://img.shields.io/github/issues/book-searcher-org/book-searcher)](https://github.com/daichangya/bs-core/issues)
+[![GitHub license](https://img.shields.io/github/license/book-searcher-org/book-searcher)](https://github.com/daichangya/bs-core/blob/master/LICENSE)
 
-#### [English](https://github.com/book-searcher-org/book-searcher/blob/master/README.md)
+#### [English](https://github.com/daichangya/bs-core/blob/master/README.md)
 
 简单而超快的图书搜索器，创建并搜索您的私人图书馆。
 
@@ -19,7 +19,7 @@ Book Searcher可以在一分钟内索引超过1000万本书的元数据，并以
 
 ### 桌面版
 
-**1. 从[Release页面](https://github.com/book-searcher-org/book-searcher/releases)下载预编译的桌面版安装程序**
+**1. 从[Release页面](https://github.com/daichangya/bs-core/releases)下载预编译的桌面版安装程序**
 
 或者您也可以自行编译。请参考下面的[从源代码构建](#构建桌面版)部分的说明。
 
@@ -39,7 +39,7 @@ Book Searcher可以在一分钟内索引超过1000万本书的元数据，并以
 
 ### 命令行版
 
-**1. 从[Release页面](https://github.com/book-searcher-org/book-searcher/releases)下载预编译的二进制文件**
+**1. 从[Release页面](https://github.com/daichangya/bs-core/releases)下载预编译的二进制文件**
 
 或者您也可以自行编译。请参考[从源代码构建](#构建命令行版)部分的说明。
 
@@ -161,4 +161,4 @@ id, title, author, publisher, extension, filesize, language, year, pages, isbn, 
 
 ## 许可证
 
-**book-searcher** © [The Book Searcher Authors](https://github.com/book-searcher-org/book-searcher/graphs/contributors), 根据[BSD-3-Clause]((./LICENSE))发布。
+**book-searcher** © [The Book Searcher Authors](https://github.com/daichangya/bs-core/graphs/contributors), 根据[BSD-3-Clause]((./LICENSE))发布。

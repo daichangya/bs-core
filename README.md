@@ -1,10 +1,10 @@
 # Book Searcher
 
-[![GitHub stars](https://img.shields.io/github/stars/book-searcher-org/book-searcher)](https://github.com/book-searcher-org/book-searcher/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/book-searcher-org/book-searcher)](https://github.com/book-searcher-org/book-searcher/network)
-[![Release](https://img.shields.io/github/release/book-searcher-org/book-searcher)](https://github.com/book-searcher-org/book-searcher/releases)
-[![GitHub issues](https://img.shields.io/github/issues/book-searcher-org/book-searcher)](https://github.com/book-searcher-org/book-searcher/issues)
-[![GitHub license](https://img.shields.io/github/license/book-searcher-org/book-searcher)](https://github.com/book-searcher-org/book-searcher/blob/master/LICENSE)
+[![GitHub stars](https://img.shields.io/github/stars/book-searcher-org/book-searcher)](https://github.com/daichangya/bs-core/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/book-searcher-org/book-searcher)](https://github.com/daichangya/bs-core/network)
+[![Release](https://img.shields.io/github/release/book-searcher-org/book-searcher)](https://github.com/daichangya/bs-core/releases)
+[![GitHub issues](https://img.shields.io/github/issues/book-searcher-org/book-searcher)](https://github.com/daichangya/bs-core/issues)
+[![GitHub license](https://img.shields.io/github/license/book-searcher-org/book-searcher)](https://github.com/daichangya/bs-core/blob/master/LICENSE)
 
 #### [中文版](https://github.com/zu1k/bs-core/blob/master/README_zh.md)
 
@@ -19,7 +19,7 @@ For individual users we recommend using the desktop version.
 
 ### Desktop
 
-**1. Download the pre-compiled desktop installer from [Release](https://github.com/book-searcher-org/book-searcher/releases)**
+**1. Download the pre-compiled desktop installer from [Release](https://github.com/daichangya/bs-core/releases)**
 
 Or you can compile by yourself. Refer to [Build from source](#build-desktop-version) section for instructions.
 
@@ -39,7 +39,7 @@ Specify the `index` folder path in the settings menu.
 
 ### Cli
 
-**1. Download the pre-compiled binary from [Release](https://github.com/book-searcher-org/book-searcher/releases)**
+**1. Download the pre-compiled binary from [Release](https://github.com/daichangya/bs-core/releases)**
 
 Or you can compile by yourself. Refer to [Build from source](#build-cli-version) section for instructions.
 
@@ -72,7 +72,7 @@ Deploying the frontend to Vercel / Netlify to speed up loading of static resourc
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fbook-searcher-org%2Fbook-searcher%2Ftree%2Fmaster%2Ffrontend&project-name=book-searcher&repository-name=book-searcher)
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/book-searcher-org/book-searcher&base=frontend)
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/daichangya/bs-core&base=frontend)
 
 ### Original Search Api
 
@@ -169,4 +169,4 @@ You will need to export and maintain your own meta information for the books you
 
 ## License
 
-**book-searcher** © [The Book Searcher Authors](https://github.com/book-searcher-org/book-searcher/graphs/contributors), Released under the [BSD-3-Clause](./LICENSE) License.
+**book-searcher** © [The Book Searcher Authors](https://github.com/daichangya/bs-core/graphs/contributors), Released under the [BSD-3-Clause](./LICENSE) License.

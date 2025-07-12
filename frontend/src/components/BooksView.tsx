@@ -21,7 +21,7 @@ import RootContext from '../store';
 import { Book } from '../scripts/searcher';
 
 import BookDetailView from './BookDetailCard';
-import { getCoverImageUrl, getMd5CoverImageUrl, white_pic } from '../scripts/cover';
+import { getIsbnCoverImageUrl,getCoverImageUrl, getMd5CoverImageUrl, white_pic } from '../scripts/cover';
 import IpfsDownloadButton from './IpfsDownloadButton';
 
 const columnHelper = createColumnHelper<Book>();
@@ -62,6 +62,7 @@ const BooksView: React.FC<BooksViewProps> = ({ books, pagination, setPagination,
       cell: (cell) => {
         const cover = cell.getValue();
         const md5 = cell.row.original.md5;
+        const isbn = cell.row.original.isbn;
         return (
           <Popover
             trigger="hover"
@@ -75,7 +76,7 @@ const BooksView: React.FC<BooksViewProps> = ({ books, pagination, setPagination,
               <Image
                 referrerPolicy="no-referrer"
                 htmlWidth="70%"
-                src={getCoverImageUrl(cover)}
+                src={getIsbnCoverImageUrl(isbn)}
                 onError={({ currentTarget }) => {
                   currentTarget.src = getMd5CoverImageUrl(md5);
                   currentTarget.onerror = () => {
@@ -91,7 +92,7 @@ const BooksView: React.FC<BooksViewProps> = ({ books, pagination, setPagination,
                 <Image
                   htmlWidth="200px"
                   referrerPolicy="no-referrer"
-                  src={getCoverImageUrl(cover)}
+                  src={getIsbnCoverImageUrl(isbn)}
                   onError={({ currentTarget }) => {
                     currentTarget.src = getMd5CoverImageUrl(md5);
                     currentTarget.onerror = () => {
