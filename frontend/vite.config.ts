@@ -86,6 +86,7 @@ export default defineConfig(() => {
     ],
     build: {
       rollupOptions: {
+        external: ['@tauri-apps/api', '@tauri-apps/api/primitives'],
         output: {
           manualChunks: {
             'chakra-ui': ['@chakra-ui/react']
